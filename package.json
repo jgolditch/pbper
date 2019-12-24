@@ -12,9 +12,13 @@
     "react-scripts": "^3.3.0"
   },
   "devDependencies": {
-    "concurrently": "^3.5.1"
+    "concurrently": "^3.5.1",
+    "gh-pages": "^2.1.1"
   },
+  "homepage": "http://jgolditch.github.io/pbper",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "concurrently \"node ./server.js\" \"react-scripts start\"",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
