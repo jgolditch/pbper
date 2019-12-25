@@ -23,7 +23,7 @@ class UsernameForm extends Component {
         <div>
           <h2>What is your username?</h2>
           <form onSubmit={this.onSubmit}>
-            <input type='text' placeholder='Your full name' onChange={this.onChange}/>
+            <input type='text' onChange={this.onChange}/>
             <input type='submit'/>
           </form>
         </div>

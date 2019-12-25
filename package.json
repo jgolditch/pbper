@@ -15,7 +15,7 @@
     "concurrently": "^3.5.1",
     "gh-pages": "^2.1.1"
   },
-  "homepage": "http://jgolditch.github.io/pbper",
+  "homepage": "https://jgolditch.github.io/pbper",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
