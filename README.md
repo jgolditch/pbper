@@ -1,15 +1,5 @@
-To do:
--
-- Switch CSS over to css files.
-- Host on github pages.
-- Make sure app works on mobile.
-- Try to get current user posts on the right side.
-- Chat bubbles.
-- Fix typing message style.
-- Redo online users section style.
-- Make header component.
-- Make online users section a pull out drawer.
-- Some sort of user authentication.
-- Make deleted users/deleted messages less ugly.
+Pbper (Play by Post)
 
+The purpose of this app is to provide a more suitable chatroom for role playing games such as DND, Warhammer, ect. This application will provide dice rollers, initiative trackers, health counters, and eventually mapping capabilities so that full table-top games can be played in a chatroom 'play by post' format. 
 
+This application uses React combined with a simple chatkit implementation, currently hosted on github pages. This project is not entirely intended for public contributions at this point, but if you think the app is cool or have any ideas let me know!
