@@ -36,7 +36,7 @@ class ChatScreen extends Component {
       instanceLocator: 'v1:us1:89d1b499-0d13-44e1-94eb-1bfacb823194',
       userId: this.props.currentUsername,
       tokenProvider: new Chatkit.TokenProvider({
-        url: 'http://localhost:3001/authenticate'
+        url: 'https://us1.pusherplatform.io/services/chatkit_token_provider/v1/89d1b499-0d13-44e1-94eb-1bfacb823194/token'
       })
     })
 
